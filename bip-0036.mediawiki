@@ -26,7 +26,7 @@ Two new fields are added to the <code>version</code> command, after <code>extra_
 {|class="wikitable"
 ! Field Size !! Description !! Data type !! Comments
 |-
-| 1+ || service_count || [[Protocol_specification#Variable_length_integer|var_int]] || Number of extra services
+| 1+ || service_count || var_int || Number of extra services
 |-
 | ? || service_list || service[] || List of service definitions
 |}
